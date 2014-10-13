@@ -1,5 +1,5 @@
-# Requierments
-* vagrant 1.6
+# Requirements
+* vagrant 1.6 (http://www.vagrantup.com/)
 
 # Install
 
