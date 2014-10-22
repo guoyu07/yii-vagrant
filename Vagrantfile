@@ -16,7 +16,7 @@ Vagrant.configure('2') do |config|
   end
 
   if data['vm']['network']['private_network'].to_s != ''
-    config.vm.network 'private_network', ip: "#{data['vm']['network']['private_network']}"
+    config.vm.network 'public_network'
   end
 
   data['vm']['network']['forwarded_port'].each do |i, port|
